@@ -24,6 +24,8 @@
       $("#target2").appendTo("#right-well");
       // function chaining with clone and appendTo
       $("#target5").clone().appendTo("#left-well");
+      // give parent of target1 element a red background
+      $("#target1").parent().css("background-color", "red");
     });
   </script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
