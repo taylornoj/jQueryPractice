@@ -28,8 +28,11 @@
       $("#target1").parent().css("background-color", "red");
       // give children of right well element the color orange"
       $("#right-well").children().css("color", "orange");
+      $("#left-well").children().css("color", "green");
       // target elements using nth-child selector
       $(".target:nth-child(2)").addClass("animated bounce");
+      // even and odd selectors to target each type of element; jQuery is 0 indexed
+      $(".target:even").addClass("animated shake");
     });
   </script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
